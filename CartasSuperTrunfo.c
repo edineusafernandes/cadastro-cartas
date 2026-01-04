@@ -9,6 +9,14 @@ int main (){
     double PIB1, PIB2;
     int populacao1, populacao2, pontos_turisticos1, pontos_turisticos2;
 
+    //calculando a densidade populacional de cada cidade
+    densi_pop1 = (float) populacao1/area1;
+    densi_pop2 = (float) populacao2/area2;
+
+    //calculando o PIB per capta
+    pib_perCapta1 = (float) PIB1/populacao1;
+    pib_perCapta2 = (float) PIB2/populacao2;
+
     printf("CARTA 1\n");
 
     printf("Digite a letra corresṕondente ao Estado (A a H): \n");
